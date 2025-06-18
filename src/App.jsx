@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [countPlus, setCountPlus] = useState(0);
 
   return (
     <>
@@ -21,9 +22,14 @@ function App() {
         <p>My name is Supakun Thata.</p>
         <p>I am Fullstack Developer.</p>
 
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
+          <button onClick={() => setCount((count) => count + 1)}>
+            count + = {count}
+          </button>
+          <button onClick={() => setCountPlus((count) => count + 2)}>
+            count ++ = {countPlus}
+          </button>
+        </div>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
