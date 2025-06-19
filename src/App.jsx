@@ -24,6 +24,7 @@ function App() {
         <p>GG EZ.</p>
         <p>GG EZ2.</p>
         <p>test1</p>
+        <p>test2</p>
 
         <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
           <button onClick={() => setCount((count) => count + 1)}>
