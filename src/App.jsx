@@ -30,6 +30,9 @@ function App() {
           <button onClick={() => setCountPlus((count) => count + 2)}>
             count ++ = {countPlus}
           </button>
+          <button onClick={() => setCountPlus((count) => count + 2)}>
+            count +++ = {countPlus}
+          </button>
         </div>
       </div>
       <p className="read-the-docs">
