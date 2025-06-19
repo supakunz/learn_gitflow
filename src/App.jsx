@@ -21,6 +21,7 @@ function App() {
       <div className="card">
         <p>My name is Supakun Thata.</p>
         <p>I am Fullstack Developer.</p>
+        <p>GG EZ.</p>
 
         <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
           <button onClick={() => setCount((count) => count + 1)}>
